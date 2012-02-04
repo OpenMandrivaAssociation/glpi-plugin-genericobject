@@ -1,5 +1,5 @@
 %define name glpi-plugin-genericobject
-%define version 1.1.3
+%define version 2.0.1
 %define release %mkrel 1
 
 Summary: Add new inventory objects
@@ -9,7 +9,7 @@ Release: %{release}
 License: GPL
 Group: Monitoring
 Url: https://forge.indepnet.net/projects/show/genericobject/
-Source0: https://forge.indepnet.net/attachments/download/535/glpi-genericobject-%{version}.tar.gz
+Source0: https://forge.indepnet.net/attachments/download/993/glpi-genericobject-%{version}.tar.gz
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}
 
