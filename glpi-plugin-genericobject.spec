@@ -41,3 +41,19 @@ rm -f %{buildroot}%{_datadir}/glpi/plugins/genericobject/README
 %files
 %doc docs/* LICENSE README
 %{_datadir}/glpi/plugins/genericobject
+
+
+%changelog
+* Sat Feb 04 2012 Oden Eriksson <oeriksson@mandriva.com> 2.0.1-2mdv2012.0
++ Revision: 771128
+- various fixes
+
+* Sat Feb 04 2012 Oden Eriksson <oeriksson@mandriva.com> 2.0.1-1
++ Revision: 771089
+- 2.0.1
+
+* Sat Jul 17 2010 Guillaume Rousse <guillomovitch@mandriva.org> 1.1.3-1mdv2011.0
++ Revision: 554621
+- import glpi-plugin-genericobject
+
+
