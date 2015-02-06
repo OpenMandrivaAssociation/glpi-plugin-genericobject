@@ -1,8 +1,8 @@
 %if %mandriva_branch == Cooker
-%define release %mkrel 2
+%define release 3
 %else
 %define subrel 1
-%define release %mkrel 0
+%define release 1
 %endif
 
 Summary: Add new inventory objects
